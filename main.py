@@ -27,7 +27,7 @@ class StressCanvasApp(App):
             for x in range(count):
                 Color(r(), 1, 1, mode='hsv')
                 Rectangle(pos=(r() * wid.width + wid.x,
-                               r() * wid.height + wid.y), size=(20, 20))
+                               r() * wid.height + wid.y), size=(10, 10))
 
     def double_rects(self, label, wid, *largs):
         count = int(label.text)
